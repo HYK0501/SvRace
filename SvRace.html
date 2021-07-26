@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SvRace</title>
+    <link rel="stylesheet" href="style/RaceStyle.css">
+  </head>
+  <body>
+    <nav>
+        <div class="craftlist">
+            <div>
+                <div class="craft" id="elf"> </div>
+                <p class="crafttext">精靈</p>
+            </div>
+            <div>
+                <div class="craft" id="royal"></div>
+                <p class="crafttext">皇家</p>
+            </div>
+            <div>
+                <div class="craft" id="witch"></div>
+                <p class="crafttext">巫師</p>
+            </div>
+            <div>
+                <div class="craft" id="dragon"></div>
+                <p class="crafttext">龍族</p>
+            </div>
+            <div>
+                <div class="craft" id="necromancer"></div>
+                <p class="crafttext">死靈</p>
+            </div>
+            <div>
+                <div class="craft" id="vampire"></div>
+                <p class="crafttext">吸血鬼</p>
+            </div>
+            <div>
+            <div class="craft" id="bishop"></div>
+                <p class="crafttext">主教</p>
+            </div>
+            <div>
+            <div class="craft" id="nemesis"></div>
+                <p class="crafttext">復仇者</p>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="show">
+           <!--costline表示長條的資訊 裏頭包含了長條 長條中的數字 和長條底下的數字--> 
+           <div class="bargraph">
+               <div class="costline">
+                    <div class="rectangle">
+                       0
+                    </div>
+                    <p class="CardCost"><~ 1</p>
+                </div>
+                <div class="costline">
+                    <div class="rectangle">
+                       0
+                    </div>
+                    <p class="CardCost">2</p>
+                </div>
+                <div class="costline">
+                    <div class="rectangle">
+                        0
+                    </div>
+                    <p class="CardCost">3</p>
+                </div>
+                <div class="costline">
+                    <div class="rectangle">
+                       0
+                    </div>
+                    <p class="CardCost">4</p>
+                </div>
+                <div class="costline">
+                    <div class="rectangle">
+                       0 
+                    </div>
+                    <p class="CardCost">5</p>
+                </div>
+                <div class="costline">
+                    <div class="rectangle">
+                      0
+                    </div>
+                    <p class="CardCost">6</p>
+                </div>
+                <div class="costline">
+                    <div class="rectangle">
+                        0
+                    </div>
+                    <p class="CardCost">7</p>
+                </div>
+                <div class="costline">
+                    <div class="rectangle">
+                        0
+                    </div>
+                    <p class="CardCost">8 ~></p>
+                </div>
+            </div>
+            <div class="cardlist">
+            </div>
+            <p class="deckURL">url : </p>
+            <button class="URLmaker">按我產生網址</button>
+        </div>
+        <div class="deckshow">
+            <p class="deckNum">目前牌數 : </p>
+            <aside class="deck">牌組</aside>
+        </div>
+    </main>
+     <!--安安 想要更改卡表的看過來! --> 
+    <script src="script/cardinfo.js" defer></script>
+    <script src="script/CardAdd.js" defer></script>
+    <script src="script/CraftBottum.js" defer></script>
+    <script src="script/UrlMake.js" defer></script>
+  </body>
+</html>

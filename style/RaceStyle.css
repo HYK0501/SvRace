@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    background-color:rgba(50, 63, 63, 1);
+}
+main{
+  display: flex;
+  width:2000px;
+  height :3000px;
+}
+.show{
+    display: initial;
+    width: 1500px;
+    height: 2000px;
+}
+.bargraph{
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+    width: 1500px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.rectangle{
+    color: white;
+    font-size: 18px;
+    text-align:center;
+    width: 120px;
+    height: 0px;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-left:15px;
+}
+/*
+test
+.rectangle1{
+    color: black;
+    font-size: 18px;
+    text-align:center;
+    width: 120px;
+    height: 100px;
+    background-color: black;
+    margin:0,0,0,0;
+    margin-bottom: 10px;
+}
+*/
+.CardCost{
+    margin: 0,0,0,0;
+    color: white;
+    width:150px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+#elf{
+    background-image: url(../image/craft/sv1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#royal{
+    background-image: url(../image/craft/sv2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#witch{
+    background-image: url(../image/craft/sv3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dragon{
+    background-image: url(../image/craft/sv4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#necromancer{
+    background-image: url(../image/craft/sv5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#necromancer{
+    background-image: url(../image/craft/sv5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#vampire{
+    background-image: url(../image/craft/sv6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bishop{
+    background-image: url(../image/craft/sv7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nemesis{
+    background-image: url(../image/craft/sv8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.craft{
+    display: flex;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 15px;
+    height:120px;
+    width:160px;
+    font-weight: bold;
+}
+.crafttext{
+    margin-left: 5px;
+    margin-right: 15px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    color: white;
+}
+.craftlist{
+    display: flex;
+    background-color: slategrey;
+    border-color: black;
+    border-style:groove;
+    width: 1800px;
+    height: 180px;
+    padding: 20px;
+}
+.cardlist{
+    background-image: url(../image/d14eac7a3f6592431faf6903a1e3d7bf.png);
+    background-size: cover;
+    margin-top:100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1550px;
+    height: 1600px;
+    overflow: auto;
+    color:white
+}
+img{
+    margin-top:15px;
+    width:200px;
+    height:300px;
+}
+.deck{
+    color: honeydew;
+    text-align: center;
+    border-color:black;
+    border-style: double;
+    margin-left: 100px;
+    margin-right: 15px;
+    width: 250px;
+    height :2000px;
+}
+.deckURL{
+    color: floralwhite;
+    font-size: 18px;
+}
+button{
+    display :block;
+}
+.deckshow{
+    text-align: center;
+    display:unset;
+}
+.deckNum{
+    margin-top: 100px;
+    color:white;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
